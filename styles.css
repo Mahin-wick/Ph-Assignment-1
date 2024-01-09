@@ -119,8 +119,43 @@ nav img {
     .texts > text:last-child {
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: Merriweather;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 1100;
     text-transform: uppercase;
+  }
+  .portfolio-section {
+    /* General styling for the section */
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-section-text h1 {
+    color: red;
+  }
+  
+  .portfolio-section-text h2 {
+    /* Styling for the second heading */
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    margin-bottom: 20px; /* Add spacing below the heading */
+  }
+  
+  .portfolio-section-text p {
+    /* Style for the main text content */
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+  }
+  .PortfolioProducts Picture img {
+    display: block; 
+    margin: 0 auto;
+    padding: right 80px; ;
   }
