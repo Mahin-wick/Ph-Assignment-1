@@ -1,0 +1,74 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+header {
+    text-align: center;
+  }
+  header h1 {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    line-height:normal;
+    font-weight: 400px;
+  }
+  header h2 {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-weight: 800px;
+    margin-top: 100px;
+  }
+  header img {
+    style="width: 1050px;height: 400px; align-content: middle;background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);1x
+  }
+  header img {
+    filter: brightness(0.7);
+  }
+/* Style for the entire nav section */
+nav {
+    text-align: center; /* Centers all text within the nav */
+  }
+  
+  /* Style for the first text element (65% OFF) */
+  nav text:first-child {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 550;
+  }
+  
+  /* Style for the second text element (Holiday Deals Are Better) */
+  nav text:nth-child(2) {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  /* Style for the third text element (ALL CATEGORIES) */
+  nav text:last-child {
+    color: #070211;
+    font-family: Inter;
+    font-size: 75px;
+    font-weight: 900;
+    margin-bottom: 50px;
+  }
+ /* Target the image within the nav element */
+nav img {
+    /* Center the image horizontally */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    Margin margin-top: 30px;
+    width: 800px;
+    height: 500px;
+  }
